@@ -156,6 +156,11 @@ section {
     margin: 0% 10%;
 }
 
+#temp{
+    line-height:700px;
+    text-align:center;
+}
+
 footer{
     text-align:center;
     color:white;
