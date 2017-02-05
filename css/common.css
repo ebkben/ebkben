@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.nav-logo {
+    padding-left: 15px;
+    transform: rotate(-30deg);
+}
+
+@font-face {
+    font-family: "helvetica neue", helvetica, Arial, Sans-serif;
+    font-style: normal;
+}
+
+
+header, footer, blockquote {
+    text-align: center;
+}
+
+.wrap-foot {
+    padding: 10px;
+}

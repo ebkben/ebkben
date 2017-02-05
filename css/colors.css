@@ -1,0 +1,19 @@
+.wrapper {
+    background: #fff;
+}
+
+.blue {
+    background: #36b;
+}
+
+.green{
+    background: #0b0;
+}
+
+li a, .white {
+    color: #fff;
+}
+
+.s-menu:hover, li:hover {
+    background: #f40;
+}

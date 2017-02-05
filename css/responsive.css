@@ -1,0 +1,20 @@
+#wrapper{
+    width: 100%;
+}
+
+.wrap-nav {
+    display: flex;
+  }
+
+.main {
+    width: 70%;
+  }
+
+.side {
+    width: 30%;
+  }
+
+
+img {
+    vertical-align: middle;
+}
