@@ -21,6 +21,10 @@ li a {
     text-decoration: none;
 }
 
+figure a {
+    text-decoration: none;
+}
+
 .s-menu {
     display: none;
     text-align: center;
@@ -35,7 +39,7 @@ input[type="checkbox"]:checked ~ #menu {
     display: block;
 }
 
-@media screen and (max-width : 780px) {
+@media screen and (max-width : 860px) {
 
     .nav-link {
         width: 100%;
