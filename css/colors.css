@@ -6,14 +6,18 @@
     background: #36b;
 }
 
-.green{
-    background: #0b0;
+.green {
+    background: #fed;
 }
 
 li a, .white {
     color: #fff;
 }
 
-.s-menu:hover, li:hover {
-    background: #f40;
+.s-menu:hover, li:hover, figure:hover {
+    background: #ccf;
+}
+
+a:hover, li a:hover {
+    color: red;
 }
