@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
+    overflow-x: hidden;
 }
 
 .nav-logo {
@@ -15,10 +16,22 @@ body {
 }
 
 
-header, footer, blockquote {
+header, footer, blockquote, figure {
     text-align: center;
 }
 
-.wrap-foot {
+.wrap-foot, .s-theme, h2 {
     padding: 10px;
+}
+
+.bq {
+    padding: 40px;
+    border-left: 5px solid #eda;
+    background: #cda;
+}
+
+@media screen and (max-width : 1100px) {
+    .bq {
+        display: none;
+    }
 }
