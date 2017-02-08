@@ -6,7 +6,7 @@ ul {
 }
 
 /* Assigning all lists horizontally*/
-li {
+.nav-main li {
     display: inline-block;
     float: left;
     height: 70px;
@@ -14,7 +14,7 @@ li {
 }
 
 /* Applying styles for lists */
-li a {
+.nav-main li a {
     min-width: 150px;
     padding: 5px 15px;
     text-align: center;
@@ -28,7 +28,8 @@ figure a {
 .s-menu {
     display: none;
     text-align: center;
-    padding: 20px;
+    margin: 4%;
+    padding: 10% 1%;
 }
 
 input[type="checkbox"] {
@@ -44,10 +45,10 @@ input[type="checkbox"]:checked ~ #menu {
     .nav-link {
         width: 100%;
     }
-    ul {
+    .nav-main {
         display: none;
     }
-    li {
+    .nav-main li {
         width: auto;
         min-width: 100%;
         height: 40px;
@@ -57,12 +58,11 @@ input[type="checkbox"]:checked ~ #menu {
     ul li, li a {
         text-align: center;
     }
-    li a{
+    .nav-main li a{
        min-width: 100px;
        padding: 2px;
     }
     .s-menu {
-        width: 100%;
         display: block;
     }
     input[type="checkbox"]:checked ~ #nav-quote {
