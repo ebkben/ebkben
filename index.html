@@ -17,26 +17,30 @@
         <link rel="stylesheet" type="text/css" href='css/nav.css'/>
 <!-- responsive CSS -->
         <link rel="stylesheet" type="text/css" href='css/responsive.css'/>
+<!-- slider CSS -->
+        <link rel="stylesheet" type="text/css" href='css/slider.css'/>
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="script/slider.js"></script>
     </head>
     <body>
         <div class="wrapper">
             <header>
                 <img src='images/logo.png' alt='ebkben' />
             </header>
-            <div class="wrap-nav blue">
-                    <div class="main nav-img">
-                        <img class="nav-logo" src="images/nav-logo.png" alt="ebkben" width="40px" height="70px"/>
-                    </div>
-                    <nav class="side nav-link">
-                        <label for="s-menu" class="s-menu"><img src="images/s-menu.png" alt="Menu" width="40px"/></label>
-                        <input id="s-menu" type="checkbox" role="button">
-                        <ul id="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-            </div>
+            <nav class="wrap-nav blue">
+                <div class="main nav-img">
+                    <img class="nav-logo" src="images/nav-logo.png" alt="ebkben" width="40px" height="70px"/>
+                </div>
+                <div class="side nav-link">
+                    <label for="s-menu" class="s-menu"><img src="images/s-menu.png" alt="Menu" width="40px"/></label>
+                    <input id="s-menu" type="checkbox" role="button">
+                    <ul class="nav-main" id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
             <div class="wrap-cat green">
                 <div  class="theme">
                     <img class="img-responsive s-theme" src="images/s-theme.jpg" alt="Site Ebkben" />
@@ -68,6 +72,35 @@
                         <figcaption>Text Books</figcaption></a>
                     </figure>
                     <blockquote class="bq">The capacity to learn is a gift; the ability to learn is a skill; the willingness to learn is a choice.- Brian Herbert</blockquote>
+                </div>
+            </div>
+            <div class="container" style="height:auto;">
+                <h2>Featured ebooks:</h2>
+                <div class="slider">
+                    <ul>
+                        <li>
+                            <ul class="slide1">
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li><li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="slide2">
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by author</p></li>
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="slide3">
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                                <li><img  class="sl-img" src="images/fb/fb.jpg" alt="book"/><h3><a href="#">name</a></h3><p> - by autor</p></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="prev">prev</button>
+                    <button class="next">next</button>
                 </div>
             </div>
             <div style="height:150px;">
