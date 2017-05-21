@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Istok Web', sans-serif;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.mg-a {
+    margin: 10px 5px;
+}
+
+.mg-a .thumbnail {
+    border-radius: 0;
+}
+
+.mg-b {
+    margin-left: 5%;
+}
+
+.carousel .indicators {
+    background: none;
+}
+
+.categories {
+    background-color: #A5C0BC;
+    padding: 20px 0;
+}
+
+.bg-info {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px ) {
+    .mg-img {
+        padding: 0 8%;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .tc-links {
+        text-align: center;
+    }
+}
