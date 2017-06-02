@@ -1,5 +1,6 @@
 body {
     font-family: 'Lora', serif;
+    background-image: url("../../images/confectionary.png");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,6 +14,18 @@ a, a:hover, a:focus {
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+}
+
+.navbar-gray {
+    background: #d3d3d3;
+}
+
+.content {
+    background: #fff;
+}
+
+.ebook-slider img {
+    margin: 10px 0;
 }
 
 .mg-a {
@@ -36,15 +49,42 @@ a, a:hover, a:focus {
     padding: 20px 0;
 }
 
+.categories-text {
+    background: url("https://t.rmncdn.com/blog/2014/08/feature-books-1408632430.jpg");
+    padding: 20px 0;
+}
+
+
+footer .container {
+    padding-right: 0;
+}
+
 .bg-info {
     padding: 20px;
 }
 
-@media screen and (max-width: 1000px ) {
+.footer {
+    padding: 15px;
+    margin: 0;
+}
+
+.ft-ct {
+    padding: 0;
+}
+
+.kid-fun .thumbnail {
+    margin: 5px 10px;
+}
+
+.kid-fun p {
+    text-align: center;
+}
+
+/* @media screen and (max-width: 1000px ) {
     .mg-img {
         padding: 0 8%;
     }
-}
+} */
 
 @media screen and (max-width: 768px ) {
     .tc-links {
