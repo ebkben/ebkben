@@ -16,8 +16,21 @@ a, a:hover, a:focus {
     border-radius: 0;
 }
 
-.navbar-gray {
-    background: #d3d3d3;
+.navbar-brand {
+    color: #FA0;
+    font-size: 25px;
+}
+
+.navbar-toggle {
+    background-color: #DDD;
+}
+
+.navbar-toggle.collapsed .icon-bar {
+    background-color: #000;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #FA0;
 }
 
 .content {
@@ -72,12 +85,27 @@ footer .container {
     padding: 0;
 }
 
+.kidi {
+    background-image:url('https://az616578.vo.msecnd.net/files/2016/07/17/636043777179864300-2139681630_Kids2.png');
+    background-size: 100% 100%;
+}
+
+.bg-ht {
+    height: 300px;    
+}
+
 .kid-fun .thumbnail {
     margin: 5px 10px;
 }
 
 .kid-fun p {
     text-align: center;
+}
+
+.tc-links h3 {
+    text-align: right;
+    margin-right: 15%;
+    border-bottom: 1px solid #edf;
 }
 
 /* @media screen and (max-width: 1000px ) {
@@ -89,5 +117,8 @@ footer .container {
 @media screen and (max-width: 768px ) {
     .tc-links {
         text-align: center;
+    }
+    .bg-ht {
+        height: 150px;
     }
 }
